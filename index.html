@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>google search clone</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+ <div class="search-bar-container ">
+    <img src="https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/magnifier-512.png" alt="" class="magnifier">
+  <input type="text" placeholder="search ..." class="input">
+    <img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-25-512.png" alt="" class="mic">
+ </div>
+<script>
+ const containerEl = document.querySelector('.search-bar-container')
+ const magnifierEl = document.querySelector('.magnifier')
+ magnifierEl.addEventListener('click', ()=>{
+    containerEl.classList.toggle('active')
+ })
+</script>
+</body>
+
+</html>
