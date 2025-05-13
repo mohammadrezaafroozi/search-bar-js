@@ -1,5 +1,8 @@
 # search-bar-js
 [online demo](https://mohammadrezaafroozi.github.io/search-bar-js/)
+![Screenshot (36)](https://github.com/user-attachments/assets/6dac721e-5d71-4667-aeaa-86036929c5a7)
+
+
 
 - Developed by MohammadReza Afroozi
 - Created - 2025
